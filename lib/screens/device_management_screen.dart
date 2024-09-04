@@ -23,7 +23,8 @@ class DeviceManagementScreen extends StatelessWidget {
                     'tenantId',
                     Device(
                         id: 'newId',
-                        name: deviceName)); // Replace with actual logic
+                        name: deviceName,
+                        usage: 0.0)); // Replace with actual logic
               },
             ),
             SizedBox(height: 20),

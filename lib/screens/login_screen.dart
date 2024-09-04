@@ -36,7 +36,7 @@ class LoginScreen extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   // Handle login validation and navigation here
-                  Navigator.pushReplacementNamed(context, '/dashboard');
+                  Navigator.pushReplacementNamed(context, '/tenant');
                 },
                 child: Text('Login'),
               ),

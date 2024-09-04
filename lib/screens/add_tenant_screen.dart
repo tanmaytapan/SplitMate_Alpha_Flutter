@@ -36,8 +36,10 @@ class AddTenantScreen extends StatelessWidget {
                     name: _tenantNameController.text,
                     devices: [
                       Device(
-                          id: DateTime.now().toString(),
-                          name: _deviceNameController.text)
+                        id: DateTime.now().toString(),
+                        name: _deviceNameController.text,
+                        usage: 0.0, // Initial usage value
+                      )
                     ],
                   );
                   Provider.of<TenantDeviceProvider>(context, listen: false)
